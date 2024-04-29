@@ -1,1 +1,1 @@
-This is a new file in new branch.
+This is a new file in new branch. Adding conflicts.
