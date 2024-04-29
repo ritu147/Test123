@@ -1,4 +1,8 @@
-This is a new file in new branch. Adding conflicts.
+<<<<<<< HEAD
+This is a new file in new branch.
+=======
+This is a new file in new branch.
+>>>>>>> Branch2
 
 #include <stdio.h>
 int main() {
@@ -21,13 +25,17 @@ int main() {
   // print 3rd to nth terms
   for (i = 3; i <= n; ++i) {
     printf("%d, ", nextTerm);
-    printf("Hello World");
+<<<<<<< HEAD
+=======
+>>>>>>> Branch2
     t1 = t2;
     t2 = nextTerm;
     nextTerm = t1 + t2;
   }
 
+<<<<<<< HEAD
   return false;
-  return 0;
+=======
+>>>>>>> Branch2
 }
 
